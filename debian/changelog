@@ -4,6 +4,9 @@ alternc-mailman (3.5.0) stable; urgency=low
   * Login should be quoted (@fser)
   * MySLQ queries should use PDO
   * All errors should use the msg->raise facility
+  * Use PHP's builtin email validation to allow mailing lists with dashes in
+    their name.
+  * Add patch for mailman from debian buster
 
  -- Sébastien Grenier <sebas@koumbit.org>  Thu,  4 Jan 2018 15:31:07 +0300
 
